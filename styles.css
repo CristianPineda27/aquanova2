@@ -1,0 +1,93 @@
+body{
+    font-family: Arial, sans-serif;
+    margin:0;
+    background:#f4f9ff;
+}
+
+header{
+    background:#D84982;
+    color:white;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:15px 40px;
+}
+
+header img{
+    height:50px;
+}
+
+menu{
+    color:white;
+    width: 100%;
+    text-decoration:none;
+    margin:0 15px;
+    font-weight:bold;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+}
+
+nav a:hover{
+    color:#90e0ef;
+}
+
+.container{
+    padding:40px;
+    text-align:center;
+}
+
+button{
+    background:#0077b6;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    border-radius:6px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#023e8a;
+}
+
+form{
+    max-width:400px;
+    margin:auto;
+    background:white;
+    padding:30px;
+    border-radius:10px;
+    /*se pone en primero 0px para indicar la dirección horizontal de sombra y 5 px para la vertical, 
+    luego 15px para el desenfoque y rgba para el color de la sombra*/
+    box-shadow:0px 5px 15px rgba(0,0,0,0.1);
+}
+
+input{
+    width:100%;
+    padding:10px;
+    margin:10px 0;
+    border-radius:5px;
+    border:1px solid #ccc;
+}
+
+footer{
+    background:#023e8a;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+}
+
+.productos{
+    display:flex;
+    justify-content:center;
+}
+
+.producto{
+    background:white;
+    padding:10px;
+    border-radius:10px;
+    box-shadow:0px 5px 15px rgba(0,0,0,0.1);
+}
+.producto img{
+    width:100%;
+    border-radius:10px;
+    height: 200px;
+}

@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="spanish">
+<head>
+    <title>Aqua Nova</title>
+    <img src="./assets/imagenes/logo.png" alt="Logo" name="logo">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section>
+        <div class="nombre-empresa" id="nombre-empresa">
+            <img src="./assets/imagenes/logo.png" alt="Logo" name="logo">
+            <h1>Aqua Nova</h1>
+        </div>
+        <Menu>
+            <a href="./index.html">Inicio</a>
+            <a href="./ventas.html">Ventas</a>
+            <a href="./recursosHidricos.html">Recursos Hídricos</a>
+            <a href="./amenazas.html">Amenazas</a>
+            <a href="./clima.html">Clima</a>
+            <a href="./tomaAccion.html">Toma Acción</a>
+            <a href="./correcciones.html">Correcciones</a>
+        </Menu>
+    </section>
+    <div><a href="./index.html">Inicio</a> > <a>Toma acción</a></div>
+    <section id ="toma-accion-main">
+        <img src="./assets/iconos/hand-holding-heart-solid.png" alt="hand-heart">
+        <H1>Toma Acción por el Agua</H1>
+        <p>Cada gota cuenta. Descubre cómo puedes contribuir a garantizar agua limpia y saneamiento para todos</p>
+        <img src="./assets/imagenes/toma-accion.png" alt="toma-accion-img">
+    </section>
+    <section class="barra">
+        <img src="./assets/imagenes/check-circle.png" alt="check-circle">
+        <h2>Tu Compromiso con el Agua</h2>
+        <label for="progreso-barra">Progreso 0/10</label>
+        <meter id="progreso-barra"value="0" max="10">0/10</meter>
+    </section>
+    <section class="agua-ahorrar">
+        <img src="./assets/imagenes/blue-star.png" alt="blue-star">
+        <h2>¿Cuánta Agua Puedes Ahorrar?</h2>
+        <div>
+            <h3>Ducha de 5 min vs 10 min</h3>
+            <p>Ahorra 40-80 litros</p>
+        </div>
+        <div>
+            <h3>Lavadora con carga completa</h3>
+            <p>Ahorra 15-40 litros por lavado</p>
+        </div>
+        <div>
+            <h3>Reparar un grifo que gotea</h3>
+            <p>Ahorra hasta 30 litros/día</p>
+        </div>
+        <div>
+            <h3>Lavavajillas vs lavar a mano</h3>
+            <p>Ahorra 50-100 litros</p>
+        </div>
+        <div>
+            <h3>Inodoro de doble descarga</h3>
+            <p>Ahorra 20-50% del agua</p>
+        </div>
+        <div>
+            <h3>Regar con agua reutilizada</h3>
+            <p>Ahorra 100+ litros/semana</p>
+        </div>
+    </section>
+    <section class="acciones">
+        <section class="acciones-individuales" id="acciones-individuales">
+            <div>
+                <img src="./assets/imagenes/como-actuar.jpeg" alt="como-actuar-img">
+                <label for="aqua-nova">Fácil</label><label for="aqua-nova">Impacto Alto</label>
+                <h1 id="aqua-nova">Aqua Nova</h1>
+                <p>Reduce tu consumo diario de agua con hábitos simples</p>
+                <ul>
+                    <li><input type="checkbox" id="tarea"><label for="tarea">Cierra el grifo mientras te cepillas los dientes</label></li>
+                    <li><input type="checkbox" id="tarea"><label for="tarea">Toma duchas más cortas (máximo 5 minutos)</label></li>
+                    <li><input type="checkbox" id="tarea"><label for="tarea">Repara fugas de grifos y tuberías</label></li>
+                    <li><input type="checkbox" id="tarea"><label for="tarea">Instala dispositivos ahorradores de agua</label></li>
+                </ul>
+            </div>
+            <div>
+                <img src="./assets/iconos/shower-solid.png" alt="shower-icon">
+                <label for="Usa-Agua-Eficientemente">Fácil</label><label for="Usa-Agua-Eficientemente">Impacto Medio</label>
+                <h1 id="Usa-Agua-Eficientemente">Usa Agua Eficientemente</h1>
+                <p>Optimiza el uso del agua en tus actividades diarias</p>
+                <ul>
+                    <li><input type="checkbox" id="tarea"><label for="tarea">Usa la lavadora y lavavajillas solo con carga completa</label></li>
+                    <li><input type="checkbox" id="tarea"><label for="tarea">Reutiliza agua de lavado de verduras para regar plantas</label></li>
+                    <li><input type="checkbox" id="tarea"><label for="tarea">Recoge agua de lluvia para uso no potable</label></li>
+                    <li><input type="checkbox" id="tarea"><label for="tarea">Riega el jardín temprano en la mañana o al atardecer</label></li>
+                </ul>
+            </div>
+            <div>
+                <img src="./assets/iconos/recycle-solid.png" alt="recycle-icon">
+                <label for="reduce-contaminacion">Fácil</label><label for="reduce-contaminacion">Impacto Medio</label>
+                <h1 id="reduce-contaminacion">Reduce la Contaminación</h1>
+                <p>Evita contaminar fuentes de agua</p>
+                <ul>
+                    <li><input type="checkbox" id="tarea"><label for="tarea">No arrojes químicos, medicinas o aceites al desagüe</label></li>
+                    <li><input type="checkbox" id="tarea"><label for="tarea">Reduce el uso de productos con microplásticos</label></li>
+                    <li><input type="checkbox" id="tarea"><label for="tarea">Usa detergentes y productos de limpieza ecológicos</label></li>
+                    <li><input type="checkbox" id="tarea"><label for="tarea">Recoge residuos cerca de ríos, lagos y playas</label></li>
+                </ul>
+            </div>
+            <div>
+                <img src="./assets/iconos/leaf-solid.png" alt="leaf-icon">
+                <label for="consume-responsablemente">Medio</label><label for="consume-responsablemente">Impacto Alto</label>
+                <h1 id="consume-responsablemente">Consume Responsablemente</h1>
+                <p>Elige productos que requieren menos agua</p>
+                <ul>
+                    <li><input type="checkbox" id="tarea"><label for="tarea">Reduce el consumo de carne (requiere mucha agua)</label></li>
+                    <li><input type="checkbox" id="tarea"><label for="tarea">Compra productos locales y de temporada</label></li>
+                    <li><input type="checkbox" id="tarea"><label for="tarea">Evita el desperdicio de alimentos</label></li>
+                    <li><input type="checkbox" id="tarea"><label for="tarea"></label>Elige ropa de materiales sostenibles</li>
+                </ul>
+            </div>
+            <div>
+                <img src="./assets/iconos/book-open-solid.png" alt="book-icon">
+                <label for="educate-educa">Fácil</label><label for="educate-educa">Impacto Alto</label>
+                <h1>Edúcate y Educa</h1>
+                <p>Aprende y comparte conocimiento sobre el agua</p>
+                <ul>
+                    <li><input type="checkbox" id="tarea"><label for="tarea">Lee sobre la crisis mundial del agua</label></li>
+                    <li><input type="checkbox" id="tarea"><label for="tarea">Enseña a niños sobre conservación del agua</label></li>
+                    <li><input type="checkbox" id="tarea"><label for="tarea">Comparte información en redes sociales</label></li>
+                    <li><input type="checkbox" id="tarea"><label for="tarea">Participa en charlas y talleres sobre agua</label></li>
+                </ul>
+            </div>
+            <div>
+                <img src="./assets/iconos/user-group-solid.png" alt="group-icon">
+                <label for="involucrate-localmente">Medio</label><label for="involucrate-localmente">Impacto Alto</label>
+                <h1>Involucrate localmente</h1>
+                <p>Únete a iniciativas de protección del agua</p>
+                <ul>
+                    <li><input type="checkbox" id="tarea"><label for="tarea">Participa en limpiezas de ríos y playas</label></li>
+                    <li><input type="checkbox" id="tarea"><label for="tarea">Únete a grupos de conservación del agua</label></li>
+                    <li><input type="checkbox" id="tarea"><label for="tarea">Voluntariado en proyectos de agua potable</label></li>
+                    <li><input type="checkbox" id="tarea"><label for="tarea">Apoya iniciativas de reforestación de cuencas</label></li>
+                </ul>
+            </div>
+        </section>
+        <section class="acciones-colectivas" id="acciones-colectivas">
+            <div>
+                <h1>Presión Política</h1>
+                <p>Exige políticas públicas para agua y saneamiento</p>
+                <ul>
+                    <li>Vota por candidatos con planes de agua sostenibles</li>
+                    <li>Exige inversión en infraestructura de agua y saneamiento</li>
+                    <li>Apoya leyes para proteger fuentes de agua</li>
+                    <li>Participa en consultas públicas sobre gestión del agua</li>
+                </ul>
+            </div>
+            <div>
+                <h1>Apoyo a Organizaciones</h1>
+                <p>Contribuye con ONGs que trabajan en acceso al agua</p>
+                <ul>
+                    <li>Dona a organizaciones de agua y saneamiento</li>
+                    <li>Apadrina proyectos de pozos de agua en comunidades</li>
+                    <li>Participa en campañas de recaudación</li>
+                    <li>Voluntariado en proyectos internacionales de agua</li>
+                </ul>
+            </div>
+            <div>
+                <h1>Influencia Empresarial</h1>
+                <p>Presiona a empresas para gestión responsable del agua</p>
+                <ul>
+                    <li>Apoya empresas con prácticas de agua sostenibles</li>
+                    <li>Exige transparencia en uso de agua industrial</li>
+                    <li>Boicotea productos de empresas que contaminan agua</li>
+                    <li>Demanda tratamiento de aguas residuales industriales</li>
+                </ul>
+            </div>
+        </section>
+    </section>
+    <section class="poder-accion">
+        <h2>El Poder de la Acción Colectiva</h2>
+        <p>Cuando trabajamos juntos, podemos lograr cambios sistémicos en la gestión del agua:</p>
+        <ul>
+            <li>Impulsar inversión pública en infraestructura de agua y saneamiento</li>
+            <li>Establecer regulaciones más estrictas contra la contaminación del agua</li>
+            <li>Garantizar el derecho humano al agua para comunidades marginadas</li>
+            <li>Financiar proyectos de agua potable en países en desarrollo</li>
+        </ul>
+    </section>
+    <section class="recursos-organizaciones">
+        <h1>Recursos y Organizaciones</h1>
+        <div>
+            <h3>Organizaciones Internacionales</h3>
+            <ul>
+                <li>Water.org - Acceso global a agua segura</li>
+                <li>charity: water - Proyectos de agua limpia</li>
+                <li>UNICEF - Agua, saneamiento e higiene (WASH)</li>
+                <li>WaterAid - Agua limpia, inodoros y higiene</li>
+                <li>The Water Project - Pozos en África Subsahariana</li>
+            </ul>
+        </div>
+        <div>
+            <h3>Herramientas Útiles</h3>
+            <ul>
+                <li>Calculadora de huella hídrica personal</li>
+                <li>Aplicaciones para monitorear consumo de agua</li>
+                <li>Guías de productos con bajo uso de agua</li>
+                <li>Mapas de calidad del agua local</li>
+                <li>Recursos educativos sobre conservación</li>
+            </ul>
+        </div>
+
+    </section>
+    <section class="impacto-potencial">
+        <h3>Tu Impacto Potencial</h3>
+        <p>Implementando solo 5 de estas acciones, una familia promedio puede:</p>
+        <div>
+            <p class="impacto-especial">40,000L</p>
+            <p>de agua ahorrada por año</p>
+        </div>
+        <div>
+            <p class="impacto-especial">$200+</p>
+            <p>ahorrados en factura anual</p>
+        </div>
+        <div>
+            <p class="impacto-especial">50%</p>
+            <p>menos contaminación del agua</p>
+        </div>
+    </section>
+    <section class="comienza-hoy">
+        <h1>Comienza Hoy Mismo</h1>
+        <p>No necesitas hacer todo a la vez. Elige una o dos acciones para comenzar y construye hábitos sostenibles con el tiempo. Cada gota de agua que ahorras hace la diferencia.</p>
+        <button onclick="window.location.href='./tomaAccion.html#toma-accion-main'">Explorar acciones</button>
+    </section>
+    <section></section>
+</body>
+<footer>
+    <p>© 2026 Aqua Nova. Todos los derechos reservados.</p>
+    <a href="./index.html">Inicio</a>
+    <a href="./ventas.html">Ventas</a>
+    <a href="./recursosHidricos.html">Recursos Hídricos</a>
+    <a href="./amenazas.html">Amenazas</a>
+    <a href="./clima.html">Clima</a>
+    <a href="./tomaAccion.html">Toma Acción</a>
+</footer>
+</html>
